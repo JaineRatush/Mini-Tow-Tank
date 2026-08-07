@@ -18,5 +18,6 @@ Created a script that:
 ## Electrical
 - Learned about the different types of Encoders(Relative/Absolute, Magnetic/Rotary/Optic)
 - Learned about Single H-Bridges & MOSFETs
+- Learned about Low-Pass Filters 
 - Wired & Created a Wiring diagram for the electronics:
  {Arduino, Proximity Sensor, IBT2 Motor Driver, Motor, Magnetic Encoder}
