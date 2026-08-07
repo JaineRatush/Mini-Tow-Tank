@@ -23,3 +23,5 @@ Created a script that:
 - Learned about Low-Pass Filters 
 - Wired & Created a Wiring diagram for the electronics:
  {Arduino, Proximity Sensor, IBT2 Motor Driver, Motor, Magnetic Encoder}
+
+Link to Video: https://www.youtube.com/watch?v=F2ftbyinyw4
