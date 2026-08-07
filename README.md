@@ -24,6 +24,5 @@ Created a script that:
 - Wired & Created a Wiring diagram for the electronics:
  {Arduino, Proximity Sensor, IBT2 Motor Driver, Motor, Magnetic Encoder}
 
- ## Video
 
-[![Mini Tow Tank Demo]()](https://www.youtube.com/watch?v=F2ftbyinyw4g)
+[![Mini Tow Tank Demo](Photos/Thumbnail.png)](https://www.youtube.com/watch?v=F2ftbyinyw4g)
