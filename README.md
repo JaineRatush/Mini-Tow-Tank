@@ -26,4 +26,4 @@ Created a script that:
 
  ## Video
 
-[![Mini Tow Tank Demo](C:\Users\jaine\OneDrive - The Cooper Union for the Advancement of Science and Art\Pictures\Screenshots\Thumbnail.png)](https://www.youtube.com/watch?v=F2ftbyinyw4g)
+[![Mini Tow Tank Demo]()](https://www.youtube.com/watch?v=F2ftbyinyw4g)
