@@ -13,6 +13,7 @@ Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)
 - Machined an adapter sleeve(4mm motor shaft to 5mm inner-bore pulley) using a manual mill and lathe, created a platform for electronics using a table saw and drill press  
 
 ## Controls
+- The Tow tank reaches a precise velocity(+/- 0.03 m/s from target velocity)~  
 - Scripted a motor controller in C++ by taking the derivative of encoder position feedback to determine velocity, and creating functions to assign motor direction based on conditional statements.   
 - Scripted and tuned a PI controller with feedforward   
 - Wrote a program to empirically determine baseline/feedforward PWM for a desired velocity  
