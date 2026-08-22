@@ -16,8 +16,9 @@ Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)
 - Scripted a motor controller in C++ by taking the derivative of encoder position feedback to determine velocity, and creating functions to assign motor direction based on conditional statements.   
 - Scripted and tuned a PI controller with feedforward   
 - Wrote a program to empirically determine baseline/feedforward PWM for a desired velocity  
-- Created an embedded circuit containing an IBT2 motor driver, Arduino Uno, DC motor, ultrasound proximity sensor, and a relative magnetic encoder.  
-## Electrical
+ 
+## Electrical  
+- Created an embedded circuit containing an IBT2 motor driver, Arduino Uno, DC motor, ultrasound proximity sensor, and a relative magnetic encoder.   
 - Learned about the different types of Encoders(Relative/Absolute, Magnetic/Rotary/Optic)
 - Learned about Single H-Bridges & MOSFETs
 - Learned about Low-Pass Filters 
