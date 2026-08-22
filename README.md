@@ -4,7 +4,7 @@ Developed a mini tow tank to support research on bioluminescent algae as an alte
 Design Notes & Instructions: https://drive.google.com/file/d/1_0wM9CwElLxKBJwhXemWCHgTlYO9H7mf/view?usp=sharing  
 
 [![Mini Tow Tank Demo](Photos/Thumbnail.png)](https://www.youtube.com/watch?v=F2ftbyinyw4g)  
-Click on the thumbnail above to see a video:
+Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)  
 
 ## Mechanical
 -Applied first principles and Desmos to size and choose a DC motor, pulley diameter, determine electrical constraints, and choose the motor driver and corresponding wires (https://www.desmos.com/calculator/bqttl8z7cw)      
