@@ -6,19 +6,16 @@ Design Notes & Instructions: https://drive.google.com/file/d/1_0wM9CwElLxKBJwhXe
 Click on the thumbnail above to see a video:
 
 ## Mechanical
-- First principles to choose the correct motor based on electrical constraints, gantry load, and target velocity
-- Machined custom parts{4mm to 5mm motor shaft adapter, Electronics holder, cut 1010 extrusions to length}
-- Used CAD to design {Belt tensioner and Gantry subassemblies} using a 3D Printer and Laser Cutter
+-Applied first principles and Desmos to size and choose a DC motor, pulley diameter, determine electrical constraints, and choose the motor driver and corresponding wires (https://www.desmos.com/calculator/bqttl8z7cw)      
+-Used Onshape to design and 3D print(gyroid infill to withstand shear stress) the belt tensioner sub-assembly and tow body.   
+-Created a height adjustable gantry (to minimize tow body deflection at any fluid level) by laser cutting acrylic and using M8 threaded rods and nuts.   
+-Machined an adapter sleeve(4mm motor shaft to 5mm inner-bore pulley) using a manual mill and lathe, created a platform for electronics using a table saw and drill press  
 
 ## Controls
-Created a script to calibrate Kff(feed-forward PWM command for desired speed)
-
-Created a script that:
-- commands a precise velocity(+/- 0.03 m/s from target velocity) using closed loop feedback from a magnetic relative encoder and coded PI control.
-- Uses Feedforward to set a base PWM for the motor
-- Capable of trapezoidal motion(not currently being used but commented out)
-- Stops the gantry at a set location
-
+-Scripted a motor controller in C++ by taking the derivative of encoder position feedback to determine velocity, and creating functions to assign motor direction based on conditional statements.   
+-Scripted and tuned a PI controller with feedforward   
+-Wrote a program to empirically determine baseline/feedforward PWM for a desired velocity  
+-Created an embedded circuit containing an IBT2 motor driver, Arduino Uno, DC motor, ultrasound proximity sensor, and a relative magnetic encoder.  
 ## Electrical
 - Learned about the different types of Encoders(Relative/Absolute, Magnetic/Rotary/Optic)
 - Learned about Single H-Bridges & MOSFETs
