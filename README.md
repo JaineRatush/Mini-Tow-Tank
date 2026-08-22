@@ -1,7 +1,7 @@
 # Mini-Tow-Tank [Jun-Jul 2026]
 Developed a mini tow tank to support research on bioluminescent algae as an alternative flow visualization technique. The control system uses closed-loop encoder feedback to achieve precise velocity(+/- 0.03 m/s from target) and repeatable motion, creating the flow conditions required for observing Kármán vortices in algae.
 
-[Documentation & Instructions](Documentation/MiniTowTank_Instructions&Documentation.pdf)  
+[Documentation & Instructions PDF](Documentation/MiniTowTank_Instructions&Documentation.pdf)  
 
 [![Mini Tow Tank Demo](Photos/Thumbnail.png)](https://www.youtube.com/watch?v=F2ftbyinyw4g)  
 Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)  
