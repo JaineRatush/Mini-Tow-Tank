@@ -9,7 +9,7 @@ Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)
 
 ## Mechanical
 - Applied first principles and Desmos to size and choose a DC motor, pulley diameter, determine electrical constraints, and choose the motor driver and corresponding wires (https://www.desmos.com/calculator/bqttl8z7cw)      
-- Used Onshape to design and 3D print(gyroid infill to withstand shear stress) the [belt tensioner](Photos/BeltTensioner(1).png) sub-assembly and tow body.   
+- Used Onshape to design and 3D print(gyroid infill to withstand shear stress) the [belt tensioner](Photos/BeltTensioner.png) sub-assembly and tow body.   
 - Created a [height adjustable gantry](Photos/Gantry.jpg) (to minimize tow body deflection at any fluid level) by laser cutting acrylic and using M8 threaded rods and nuts.   
 - Machined an [adapter sleeve](Photos/AdapterSleeve.jpeg) (4mm motor shaft to 5mm inner-bore pulley) using a manual mill and lathe, created a platform for electronics using a table saw and drill press  
 
