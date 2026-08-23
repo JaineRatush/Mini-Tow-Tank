@@ -11,12 +11,12 @@ Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)
 - Applied first principles and Desmos to size and choose a DC motor, pulley diameter, determine electrical constraints, and choose the motor driver and corresponding wires (https://www.desmos.com/calculator/bqttl8z7cw)      
 - Used Onshape to design and 3D print(gyroid infill to withstand shear stress) the belt tensioner sub-assembly and tow body.   
 - Created a height adjustable gantry (to minimize tow body deflection at any fluid level) by laser cutting acrylic and using M8 threaded rods and nuts.   
-- Machined an adapter sleeve(4mm motor shaft to 5mm inner-bore pulley) using a manual mill and lathe, created a platform for electronics using a table saw and drill press  
+- Machined an [adapter sleeve](Photos/AdapterMotorSubassembly.jpg)(4mm motor shaft to 5mm inner-bore pulley) using a manual mill and lathe, created a platform for electronics using a table saw and drill press  
 
 ## Controls  
-- Scripted a motor controller in C++ by taking the derivative of encoder position feedback to determine velocity, and creating functions to assign motor direction based on conditional statements.   
+- Scripted a [motor controller](Code/Tow_Tank_Motion.ino) in C++ by taking the derivative of encoder position feedback to determine velocity, and creating functions to assign motor direction based on conditional statements.   
 - Scripted and tuned a PI controller with feedforward   
-- Wrote a program to empirically determine baseline/feedforward PWM for a desired velocity  
+- Wrote a [calibration program](Code/Kff_Calibration.ino) to empirically determine baseline/feedforward PWM for a desired velocity  
  
 ## Electrical  
 - Created an embedded circuit containing an IBT2 motor driver, Arduino Uno, DC motor, ultrasound proximity sensor, and a relative magnetic encoder.   
