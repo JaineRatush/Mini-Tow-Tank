@@ -4,6 +4,7 @@ Developed a mini tow tank to support research on bioluminescent algae as an alte
 [Documentation & Instructions PDF](Documentation/MiniTowTank_Instructions&Documentation.pdf)  
 
 [![Mini Tow Tank Demo](Photos/Thumbnail.png)](https://www.youtube.com/watch?v=F2ftbyinyw4g)  
+Click on the image above to see it in action!  
 Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)  
 
 ## Mechanical
