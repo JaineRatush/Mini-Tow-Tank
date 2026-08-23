@@ -23,6 +23,6 @@ Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)
 - Learned about the different types of Encoders(Relative/Absolute, Magnetic/Rotary/Optic)
 - Learned about Single H-Bridges & MOSFETs
 - Learned about Low-Pass Filters 
-- Wired & Created a [Wiring diagram](Electronics.png) for the electronics:
+- Wired & Created a [Wiring diagram](Photos/Electronics.png) for the electronics:
  {Arduino, Proximity Sensor, IBT2 Motor Driver, Motor, Magnetic Encoder}
 
