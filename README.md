@@ -28,13 +28,14 @@ Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)
  
 ## Future Improvements:
 Mechanical:  
-•	Gantry is height adjustable, but was not designed for constant and easy adjustment. Mini Tow Tank 2.0 will have one threaded rod, and one smooth rod with clamps, allowing for faster adjustment. 
-•	The Laser printed top and bottom portion of the gantry can be re-laser cut such that the nuts sit farther away from the MGN9 carriages to reduce nut-loosening vibrations. 
-•	In a future iteration the Go Pro should be able to be mounted on the gantry  
+-	Gantry is height adjustable, but was not designed for constant and easy adjustment. Mini Tow Tank 2.0 will have one threaded rod, and one smooth rod with clamps, allowing for faster adjustment. 
+-	The Laser printed top and bottom portion of the gantry can be re-laser cut such that the nuts sit farther away from the MGN9 carriages to reduce nut-loosening vibrations. 
+- In a future iteration the Go Pro should be able to be mounted on the gantry  
 
 Controls/Electrical:  
 For the next iteration the following improvements could be made:
-•	Add a homing button and a stop button 
-•	Adding capacitor between motor & breadboard to prevent back emf from resetting if the belt is not removed from the driver pulley
-•	Using an absolute encoder instead of the current relative encoder
-•	Better wire management and casing for electronics
+-	Add a homing button and a stop button 
+- Using an absolute encoder instead of the current relative encoder
+-	Better wire management and casing for electronics
+
+Credit to Zara Bhuiyan for helping embed/redesign the belt tensioner for the hex screw.  
