@@ -11,7 +11,7 @@ Video link: (https://www.youtube.com/watch?v=F2ftbyinyw4)
 - Applied first principles and Desmos to size and choose a DC motor, pulley diameter, determine electrical constraints, and choose the motor driver and corresponding wires (https://www.desmos.com/calculator/bqttl8z7cw)      
 - Used Onshape to design and 3D print(gyroid infill to withstand shear stress) the [belt tensioner](Photos/BeltTensioner(1).png) sub-assembly and tow body.   
 - Created a height adjustable gantry (to minimize tow body deflection at any fluid level) by laser cutting acrylic and using M8 threaded rods and nuts.   
-- Machined an [adapter sleeve](Photos/AdapterMotorSubassembly.jpg)(4mm motor shaft to 5mm inner-bore pulley) using a manual mill and lathe, created a platform for electronics using a table saw and drill press  
+- Machined an [adapter sleeve](Photos/AdapterMotorSubassembly.png) (4mm motor shaft to 5mm inner-bore pulley) using a manual mill and lathe, created a platform for electronics using a table saw and drill press  
 
 ## Controls  
 - Scripted a [motor controller](Code/Tow_Tank_Motion.ino) in C++ by taking the derivative of encoder position feedback to determine velocity, and creating functions to assign motor direction based on conditional statements.   
